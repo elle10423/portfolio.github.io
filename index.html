@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joella Edulan — IT Student &amp; Web Developer</title>
+  <meta name="description" content="Portfolio of Joella Edulan, IT student building web projects with Django, HTML, CSS and JavaScript.">
+  <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)">
+  <link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
+  <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap)" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#home">
+        <span class="brand-mark">JE</span>
+        <span class="brand-text">Joella&nbsp;Edulan</span>
+        <span class="brand-role">IT Student</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#home"><span class="idx">01</span> Home</a></li>
+          <li><a href="#about"><span class="idx">02</span> About</a></li>
+          <li><a href="#skills"><span class="idx">03</span> Skills</a></li>
+          <li><a href="#projects"><span class="idx">04</span> Work</a></li>
+          <li><a class="nav-cta" href="#contact"><span class="idx">05</span> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+        <!-- 01 HOME -->
+    <section id="home" class="hero">
+      <div class="hero-grid-lines" aria-hidden="true"></div>
+      <div class="shell hero-grid">
+        <div class="hero-inner">
+          <p class="marker"><span class="marker-line"></span> Open to class collaborations</p>
+
+          <h1 class="hero-title">
+            <span class="line">Small web things,</span>
+            <span class="line">rebuilt until</span>
+            <span class="line"><em>they behave.</em></span>
+          </h1>
+
+          <p class="lede">
+            Joella Edulan — Information Technology student working in
+            <strong>Django</strong>, <strong>HTML</strong>, <strong>CSS</strong>
+            and <strong>JavaScript</strong>. Every project below is practice.
+          </p>
+
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#projects">
+              See the work
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="#contact">
+              Email me
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3z"/><path d="m3 6 9 7 9-7"/></svg>
+            </a>
+          </div>
+
+          <dl class="stats">
+            <div class="stat"><dt>04</dt><dd>Projects built</dd></div>
+            <div class="stat"><dt>2026</dt><dd>Still studying</dd></div>
+            <div class="stat"><dt>03</dt><dd>Languages used</dd></div>
+          </dl>
+        </div>
+
+        <aside class="term" aria-label="Technology stack">
+          <div class="term-bar">
+            <span class="term-lights" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </span>
+            <span class="term-title">joella@portfolio — stack.sh</span>
+            <span class="term-copy" aria-hidden="true">bash</span>
+          </div>
+
+          <div class="term-body">
+            <p class="term-line"><span class="prompt">$</span> <span class="cmd">cat stack.json</span></p>
+
+<pre class="term-code"><code>{
+  <span class="k">"frontend"</span>: [<span class="s">"HTML"</span>, <span class="s">"CSS"</span>, <span class="s">"JavaScript"</span>],
+  <span class="k">"backend"</span>:  [<span class="s">"Django"</span>, <span class="s">"Python"</span>],
+  <span class="k">"design"</span>:   [<span class="s">"layout"</span>, <span class="s">"type"</span>, <span class="s">"colour"</span>],
+  <span class="k">"tools"</span>:    [<span class="s">"git"</span>, <span class="s">"devtools"</span>, <span class="s">"figma"</span>]
+}</code></pre>
+
+            <p class="term-line"><span class="prompt">$</span> <span class="cmd">whoami --status</span></p>
+            <ul class="term-out">
+              <li><span class="ok">●</span> Learning in progress</li>
+              <li><span class="dim">▸</span> Based in Cebu, Philippines</li>
+              <li><span class="dim">▸</span> Reply time: within a day or two</li>
+              <li><span class="dim">▸</span> Open to collabs &amp; internship leads</li>
+            </ul>
+
+            <p class="term-line term-cursor-line">
+              <span class="prompt">$</span>
+              <span class="term-cursor" aria-hidden="true"></span>
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 02 ABOUT -->
+    <section id="about" class="band">
+      <div class="shell about-grid">
+        <div class="about-head">
+          <p class="marker"><span class="marker-line"></span> 02 — About</p>
+          <h2>Started with a<br>web page I wanted<br>to edit.</h2>
+
+          <div class="portrait">
+            <img src="images/Me.png" alt="Portrait of Joella Edulan" width="480" height="480">
+            <span class="portrait-tag">IT Student</span>
+          </div>
+        </div>
+
+        <div class="about-body">
+          <p class="lead-p">
+            When I started this course, I had no real curiosity about coding or prototyping. 
+            But as time passed, it caught my attention, especially creating UI/UX designs, 
+            and now I find myself drawn to making layouts that look good and feel easy to use.
+          </p>
+          <p>
+            Outside of class I enjoy drawing, painting, and reading books.
+            Sketching and painting let me experiment with color and composition, and I often bring
+            those ideas into my UI sketches. I keep a small notebook of UI ideas I want to try, and
+            I work best when a task has a clear goal and I can test it as I go.
+          </p>
+
+          <h3 class="rule-h">Where I am now</h3>
+          <p>
+            I'm an early-stage learner. I can lay out a responsive page, style it
+            consistently, wire it into a small Django project, and publish it —
+            but I still check documentation for anything unfamiliar, and I don't
+            yet build production backend systems.
+          </p>
+
+          <ul class="chips">
+            <li>Responsive layout</li>
+            <li>Django basics</li>
+            <li>Git version control</li>
+            <li>Accessible markup</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 SKILLS -->
+    <section id="skills" class="band band-alt">
+      <div class="shell">
+        <div class="band-head">
+          <p class="marker"><span class="marker-line"></span> 03 — Skills</p>
+          <h2>What I can do today</h2>
+          <p class="note">Honest levels — updated as I learn.</p>
+        </div>
+
+        <ul class="skill-list">
+          <li class="skill">
+            <div class="skill-top">
+              <h3>HTML &amp; Semantics</h3>
+              <span class="lvl">Confident</span>
+            </div>
+            <p>Headings, landmarks, lists, forms and accessible labels.</p>
+            <div class="track"><span style="--level: 75%"></span></div>
+          </li>
+          <li class="skill">
+            <div class="skill-top">
+              <h3>CSS &amp; Responsive Layout</h3>
+              <span class="lvl">Confident</span>
+            </div>
+            <p>Flexbox, Grid, media queries, custom properties, mobile-first.</p>
+            <div class="track"><span style="--level: 70%"></span></div>
+          </li>
+          <li class="skill">
+            <div class="skill-top">
+              <h3>JavaScript Basics</h3>
+              <span class="lvl">Learning</span>
+            </div>
+            <p>DOM selection, events, small state changes, form checks.</p>
+            <div class="track"><span style="--level: 45%"></span></div>
+          </li>
+          <li class="skill">
+            <div class="skill-top">
+              <h3>Django</h3>
+              <span class="lvl">Learning</span>
+            </div>
+            <p>Project structure, URLs, views, templates, models, admin.</p>
+            <div class="track"><span style="--level: 50%"></span></div>
+          </li>
+          <li class="skill">
+            <div class="skill-top">
+              <h3>Design &amp; Typography</h3>
+              <span class="lvl">Confident</span>
+            </div>
+            <p>Spacing, contrast, colour systems, readable type scales.</p>
+            <div class="track"><span style="--level: 65%"></span></div>
+          </li>
+          <li class="skill">
+            <div class="skill-top">
+              <h3>Tools</h3>
+              <span class="lvl">Confident</span>
+            </div>
+            <p>VS Code, Chrome DevTools, Figma, git for version control.</p>
+            <div class="track"><span style="--level: 60%"></span></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 04 WORK -->
+    <section id="projects" class="band">
+      <div class="shell">
+        <div class="band-head">
+          <p class="marker"><span class="marker-line"></span> 04 — Work</p>
+          <h2>Classwork &amp; practice builds</h2>
+          <p class="note">Four projects. Selected, not everything I've made.</p>
+        </div>
+
+        <div class="work-list">
+
+          <article class="entry">
+            <div class="entry-num">01</div>
+            <div class="entry-main">
+              <h3>Barangay Report System</h3>
+              <ul class="tag-row">
+                <li>Web app</li><li>Django</li><li>UI design</li>
+              </ul>
+              <p>
+                A portal where residents file complaints and track case status,
+                and admins manage records. I built the homepage and role-selection
+                screen, set up the Django project with views for the resident and
+                admin pages, and styled the dark theme.
+              </p>
+              <p class="links">
+                <a href="#" target="_blank" rel="noopener">Live site</a>
+                <a href="#" target="_blank" rel="noopener">Source code</a>
+              </p>
+            </div>
+            <div class="entry-media">
+              <img src="images/BaranggayReport.png" alt="Screenshot of the barangay report system homepage" width="640" height="400">
+              <span class="media-tag">Django</span>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry-num">02</div>
+            <div class="entry-main">
+              <h3>Monster Hunt — Love Beyond the Crown</h3>
+              <ul class="tag-row">
+                <li>JavaScript</li><li>DOM</li>
+              </ul>
+              <p>
+                A small browser game with a title screen, start flow and a simple
+                fight mechanic. My contribution was the title screen layout, the
+                button interactions, and keeping the whole thing running inside a
+                single HTML file.
+              </p>
+              <p class="links">
+                <a href="#" target="_blank" rel="noopener">Play it</a>
+                <a href="#" target="_blank" rel="noopener">Source code</a>
+              </p>
+            </div>
+            <div class="entry-media">
+              <img src="images/MonsterHunt.png" alt="Title screen of the Monster Hunt browser game" width="640" height="400">
+              <span class="media-tag">Game</span>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry-num">03</div>
+            <div class="entry-main">
+              <h3>Street Vendor Online Permit Registration</h3>
+              <ul class="tag-row">
+                <li>Landing page</li><li>Responsive</li>
+              </ul>
+              <p>
+                A landing page introducing an online permit service, with a feature
+                grid and clear login and sign-up calls to action. I handled the
+                feature cards and made the three-column layout stack cleanly on
+                phones.
+              </p>
+              <p class="links">
+                <a href="#" target="_blank" rel="noopener">Live site</a>
+                <a href="#" target="_blank" rel="noopener">Source code</a>
+              </p>
+            </div>
+            <div class="entry-media">
+              <img src="images/StreetVendor.png" alt="Screenshot of the street vendor permit registration landing page" width="640" height="400">
+              <span class="media-tag">Responsive</span>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry-num">04</div>
+            <div class="entry-main">
+              <h3>Buy, Sell, Trade — Local Marketplace</h3>
+              <ul class="tag-row">
+                <li>Landing page</li><li>Layout</li>
+              </ul>
+              <p>
+                A community marketplace landing page with a split hero, a
+                three-item feature strip, and a category grid for listings. I built
+                the hero section and the feature strip, and made the category cards
+                wrap correctly on narrow screens.
+              </p>
+              <p class="links">
+                <a href="#" target="_blank" rel="noopener">Live site</a>
+                <a href="#" target="_blank" rel="noopener">Source code</a>
+              </p>
+            </div>
+            <div class="entry-media">
+              <img src="images/BuySellTrade.png" alt="Homepage of the Buy, Sell, Trade local marketplace" width="640" height="400">
+              <span class="media-tag">Layout</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 CONTACT -->
+    <section id="contact" class="band band-dark">
+      <div class="shell contact-grid">
+        <div class="contact-inner">
+          <p class="marker"><span class="marker-line"></span> 05 — Contact</p>
+          <h2>Let's talk</h2>
+          <p class="note">
+            Email is the quickest way to reach me. I'm open to class
+            collaborations, feedback on my projects, and internship leads.
+          </p>
+
+          <a class="mail-card" href="mailto:joellaedulan10@gmail.com">
+            <span class="mail-label">Email</span>
+            <span class="mail-text">joellaedulan10@gmail.com</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+          </a>
+
+          <div class="resume-box">
+            <div>
+              <h3>Resume</h3>
+              <p>PDF · one page</p>
+            </div>
+            <a class="btn btn-primary resume-btn" href="assets/resume.pdf" download="Joella-Edulan-Resume.pdf">
+              Download
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"/><path d="m7 11 5 5 5-5"/><path d="M5 21h14"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <aside class="fact-panel">
+          <h3>Quick facts</h3>
+          <dl>
+            <div><dt>Location</dt><dd>Cebu, Philippines</dd></div>
+            <div><dt>Response time</dt><dd>Within a day or two</dd></div>
+            <div><dt>Currently</dt><dd>Studying IT, building projects</dd></div>
+            <div><dt>Open to</dt><dd>Class collabs, internship leads</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p>&copy; <span id="year">2026</span> Joella Edulan</p>
+      <p class="footer-meta">Plain HTML · CSS · JavaScript</p>
+      <p class="footer-meta">Published on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top" hidden>&uarr;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
